@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270C4C0D207A5BC500B69C28 /* ShoppingCartItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270C4C0B207A5BC500B69C28 /* ShoppingCartItem+CoreDataClass.swift */; };
+		270C4C0E207A5BC500B69C28 /* ShoppingCartItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270C4C0C207A5BC500B69C28 /* ShoppingCartItem+CoreDataProperties.swift */; };
+		271DBA5D2078E8ED009C6AC6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271DBA5C2078E8ED009C6AC6 /* Product.swift */; };
+		2722FA0C2078E2A6004D8A85 /* sqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2722FA0B2078E2A6004D8A85 /* sqliteManager.m */; };
+		2722FA0F2078E303004D8A85 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2722FA0E2078E303004D8A85 /* libsqlite3.tbd */; };
+		2722FA112078E360004D8A85 /* CategoryProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722FA102078E360004D8A85 /* CategoryProductsViewController.swift */; };
+		2722FA132078E586004D8A85 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722FA122078E586004D8A85 /* ProductCollectionViewCell.swift */; };
+		27272F242079040600968110 /* shoppingAppDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2722FA092078DBBF004D8A85 /* shoppingAppDB.sqlite */; };
+		272D8B782079686C00FB0D02 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D8B772079686C00FB0D02 /* ShoppingCartViewController.swift */; };
+		272D8B7A20796A5200FB0D02 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D8B7920796A5200FB0D02 /* PersistenceService.swift */; };
+		277C18E4207A87630067C264 /* OrderNo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C18E2207A87630067C264 /* OrderNo+CoreDataClass.swift */; };
+		277C18E5207A87630067C264 /* OrderNo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C18E3207A87630067C264 /* OrderNo+CoreDataProperties.swift */; };
+		277C18E8207A877C0067C264 /* HistoryItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C18E6207A877C0067C264 /* HistoryItem+CoreDataClass.swift */; };
+		277C18E9207A877C0067C264 /* HistoryItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C18E7207A877C0067C264 /* HistoryItem+CoreDataProperties.swift */; };
+		277C18EB207A91270067C264 /* OrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C18EA207A91270067C264 /* OrderHistoryViewController.swift */; };
+		277C18ED207A91390067C264 /* OrderStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C18EC207A91390067C264 /* OrderStatsViewController.swift */; };
 		2785070E2076813F00F6C971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785070D2076813F00F6C971 /* AppDelegate.swift */; };
 		278507102076813F00F6C971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785070F2076813F00F6C971 /* ViewController.swift */; };
 		278507132076813F00F6C971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278507112076813F00F6C971 /* Main.storyboard */; };
 		278507162076813F00F6C971 /* ShoppingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 278507142076813F00F6C971 /* ShoppingApp.xcdatamodeld */; };
 		278507182076813F00F6C971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278507172076813F00F6C971 /* Assets.xcassets */; };
 		2785071B2076813F00F6C971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278507192076813F00F6C971 /* LaunchScreen.storyboard */; };
+		2785072720768DBB00F6C971 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785072620768DBB00F6C971 /* CategoryCollectionViewCell.swift */; };
+		27FF099A207914D900A55787 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FF0999207914D900A55787 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		270C4C0B207A5BC500B69C28 /* ShoppingCartItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingCartItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		270C4C0C207A5BC500B69C28 /* ShoppingCartItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShoppingCartItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		271DBA5C2078E8ED009C6AC6 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2722FA092078DBBF004D8A85 /* shoppingAppDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = shoppingAppDB.sqlite; sourceTree = "<group>"; };
+		2722FA0A2078E2A6004D8A85 /* ShoppingApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoppingApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		2722FA0B2078E2A6004D8A85 /* sqliteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqliteManager.m; sourceTree = "<group>"; };
+		2722FA0E2078E303004D8A85 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2722FA102078E360004D8A85 /* CategoryProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProductsViewController.swift; sourceTree = "<group>"; };
+		2722FA122078E586004D8A85 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		272D8B772079686C00FB0D02 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		272D8B7920796A5200FB0D02 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		277C18E2207A87630067C264 /* OrderNo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderNo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		277C18E3207A87630067C264 /* OrderNo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderNo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		277C18E6207A877C0067C264 /* HistoryItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		277C18E7207A877C0067C264 /* HistoryItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		277C18EA207A91270067C264 /* OrderHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewController.swift; sourceTree = "<group>"; };
+		277C18EC207A91390067C264 /* OrderStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatsViewController.swift; sourceTree = "<group>"; };
 		2785070A2076813F00F6C971 /* ShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2785070D2076813F00F6C971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2785070F2076813F00F6C971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +59,8 @@
 		278507172076813F00F6C971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2785071A2076813F00F6C971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2785071C2076813F00F6C971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2785072620768DBB00F6C971 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		27FF0999207914D900A55787 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +68,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2722FA0F2078E303004D8A85 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2722FA0D2078E303004D8A85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2722FA0E2078E303004D8A85 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		278507012076813F00F6C971 = {
 			isa = PBXGroup;
 			children = (
 				2785070C2076813F00F6C971 /* ShoppingApp */,
 				2785070B2076813F00F6C971 /* Products */,
+				2722FA0D2078E303004D8A85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +105,29 @@
 			children = (
 				2785070D2076813F00F6C971 /* AppDelegate.swift */,
 				2785070F2076813F00F6C971 /* ViewController.swift */,
+				2722FA102078E360004D8A85 /* CategoryProductsViewController.swift */,
+				27FF0999207914D900A55787 /* DetailsViewController.swift */,
+				272D8B772079686C00FB0D02 /* ShoppingCartViewController.swift */,
+				277C18EA207A91270067C264 /* OrderHistoryViewController.swift */,
+				277C18EC207A91390067C264 /* OrderStatsViewController.swift */,
+				271DBA5C2078E8ED009C6AC6 /* Product.swift */,
 				278507112076813F00F6C971 /* Main.storyboard */,
+				2785072620768DBB00F6C971 /* CategoryCollectionViewCell.swift */,
+				2722FA122078E586004D8A85 /* ProductCollectionViewCell.swift */,
+				270C4C0B207A5BC500B69C28 /* ShoppingCartItem+CoreDataClass.swift */,
+				270C4C0C207A5BC500B69C28 /* ShoppingCartItem+CoreDataProperties.swift */,
+				277C18E6207A877C0067C264 /* HistoryItem+CoreDataClass.swift */,
+				277C18E7207A877C0067C264 /* HistoryItem+CoreDataProperties.swift */,
+				277C18E2207A87630067C264 /* OrderNo+CoreDataClass.swift */,
+				277C18E3207A87630067C264 /* OrderNo+CoreDataProperties.swift */,
 				278507172076813F00F6C971 /* Assets.xcassets */,
 				278507192076813F00F6C971 /* LaunchScreen.storyboard */,
 				2785071C2076813F00F6C971 /* Info.plist */,
+				272D8B7920796A5200FB0D02 /* PersistenceService.swift */,
 				278507142076813F00F6C971 /* ShoppingApp.xcdatamodeld */,
+				2722FA0B2078E2A6004D8A85 /* sqliteManager.m */,
+				2722FA0A2078E2A6004D8A85 /* ShoppingApp-Bridging-Header.h */,
+				2722FA092078DBBF004D8A85 /* shoppingAppDB.sqlite */,
 			);
 			path = ShoppingApp;
 			sourceTree = "<group>";
@@ -95,10 +160,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Mike Glover";
+				ORGANIZATIONNAME = 117222405;
 				TargetAttributes = {
 					278507092076813F00F6C971 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27272F242079040600968110 /* shoppingAppDB.sqlite in Resources */,
 				2785071B2076813F00F6C971 /* LaunchScreen.storyboard in Resources */,
 				278507182076813F00F6C971 /* Assets.xcassets in Resources */,
 				278507132076813F00F6C971 /* Main.storyboard in Resources */,
@@ -139,9 +206,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277C18ED207A91390067C264 /* OrderStatsViewController.swift in Sources */,
+				2722FA0C2078E2A6004D8A85 /* sqliteManager.m in Sources */,
+				271DBA5D2078E8ED009C6AC6 /* Product.swift in Sources */,
+				2785072720768DBB00F6C971 /* CategoryCollectionViewCell.swift in Sources */,
+				272D8B7A20796A5200FB0D02 /* PersistenceService.swift in Sources */,
+				277C18E9207A877C0067C264 /* HistoryItem+CoreDataProperties.swift in Sources */,
+				270C4C0D207A5BC500B69C28 /* ShoppingCartItem+CoreDataClass.swift in Sources */,
+				2722FA132078E586004D8A85 /* ProductCollectionViewCell.swift in Sources */,
+				272D8B782079686C00FB0D02 /* ShoppingCartViewController.swift in Sources */,
 				278507102076813F00F6C971 /* ViewController.swift in Sources */,
 				278507162076813F00F6C971 /* ShoppingApp.xcdatamodeld in Sources */,
+				277C18E4207A87630067C264 /* OrderNo+CoreDataClass.swift in Sources */,
+				270C4C0E207A5BC500B69C28 /* ShoppingCartItem+CoreDataProperties.swift in Sources */,
+				277C18EB207A91270067C264 /* OrderHistoryViewController.swift in Sources */,
+				2722FA112078E360004D8A85 /* CategoryProductsViewController.swift in Sources */,
 				2785070E2076813F00F6C971 /* AppDelegate.swift in Sources */,
+				277C18E5207A87630067C264 /* OrderNo+CoreDataProperties.swift in Sources */,
+				27FF099A207914D900A55787 /* DetailsViewController.swift in Sources */,
+				277C18E8207A877C0067C264 /* HistoryItem+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +361,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mike.glover.ShoppingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = 117222405.ShoppingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShoppingApp/ShoppingApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,11 +378,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mike.glover.ShoppingApp;
+				PRODUCT_BUNDLE_IDENTIFIER = 117222405.ShoppingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShoppingApp/ShoppingApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
